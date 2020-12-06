@@ -42,12 +42,12 @@
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "e-OVJ2oCTj-Eig7_3QiXiJ-NexiwWqRm";
+char auth[] = "token";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Bbox-34E9EF0E";
-char pass[] = "ED1993992F2EAAAA93C4CD62A6649D";
+char ssid[] = "ssid";
+char pass[] = "pass";
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 3600, 60000);
 int ledPin1 = 0;
